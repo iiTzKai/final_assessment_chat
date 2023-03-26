@@ -1,3 +1,11 @@
+# You can clone the repo and run it
+### `npm install`
+To install all the dependencies 
+### `npm run start`
+To run the web app
+
+### `Or Download the Releases unzip and npm run start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
