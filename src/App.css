@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,80 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.formContainer {
+  width: 50%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.loginWithGoogle {
+  width: 100%;
+}
+
+.or {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginformHeader {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnLinkRouter {
+  text-decoration: none;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.chatContainer {
+  background-color: #f2eecb;
+  width: 60%;
+  height: 100vh;
+  position: relative;
+}
+
+.sendMessage {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  width: 90%;
+}
+
+.btnSend {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  width: 7%;
+}
+
+.viewMessages {
+  height: 80vh;
+}
+
+.sentbyUser {
+  text-align: right;
+  padding-right: 10px;
+  border-bottom: 1px solid black;
+}
+
+.otherUsers {
+  padding-left: 10px;
+  border-bottom: 1px solid black;
 }
